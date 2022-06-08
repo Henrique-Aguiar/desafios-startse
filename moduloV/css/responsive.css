@@ -26,6 +26,11 @@
         flex-direction: column-reverse; 
         align-items: center;
     }
+    #form form{
+        align-items: flex-start;
+        margin-bottom: 50px;
+    }
+
 }
 
 @media (min-height: 631px) {
@@ -97,5 +102,8 @@
         top: 8px
     }
 
-  
+    #menssage{
+        width: 380px;
+    }
+
 }
